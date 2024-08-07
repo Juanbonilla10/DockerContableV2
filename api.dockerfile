@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y git
 WORKDIR /app
 
 # Clona el repositorio (reemplaza con la URL de tu repositorio)
-RUN git clone git@github.com:Juanbonilla10/BackendContableV2.git
+RUN git clone https://github.com/Juanbonilla10/BackendContableV2.git
 
 # Establece el directorio de trabajo en el contenedor
 WORKDIR /app/BackendContableV2

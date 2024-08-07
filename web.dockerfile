@@ -11,7 +11,7 @@ RUN apk add --no-cache git openssh-client
 WORKDIR /app
 
 # Copia el archivo Python al contenedor
-RUN git clone git@github.com:Juanbonilla10/FrontContableV2.git
+RUN git clone https://github.com/Juanbonilla10/FrontContableV2.git
 
 # Mover front a htdocs
 RUN mv /app/FrontContableV2/* /usr/local/apache2/htdocs/
