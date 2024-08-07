@@ -1,5 +1,5 @@
 # Usa una imagen base con JDK
-FROM openjdk:17-jre-slim
+FROM openjdk:17-jdk-slim
 
 # Instala git
 RUN apt-get update && apt-get install -y git
